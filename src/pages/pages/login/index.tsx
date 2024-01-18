@@ -86,6 +86,25 @@ const LoginPage = () => {
   }
 
   return (
+    <>
+    <header className="tw-fixed tw-z-50 tw-bg-[#b5245f] tw-bg-opacity-1 tw-text-white tw-shadow-lg tw-w-full tw-md:block">
+  <div className="tw-container tw-mx-auto tw-flex tw-items-center tw-justify-between tw-gap-4 tw-px-5 tw-h-18">
+    <a href="" className="tw-flex tw-items-center tw-justify-center">
+      <img
+        className="tw-h-16"
+        src="https://i.ibb.co/6Yxs70 d/2021-10-26-23h27-03.png"
+        alt=""
+      />
+      <span className="tw-ml-4 tw-text-white tw-uppercase tw-font-black">
+        clara
+        thella
+      </span>
+    </a>
+    <button className="tw-border tw-border-white tw-rounded-full tw-font-bold tw-px-8 tw-py-2">
+      Contact me
+    </button>
+  </div>
+</header>
     <Box className='' >
       <Card sx={{ zIndex: 1 }} style={{
       height: '100vh',
@@ -253,6 +272,7 @@ const LoginPage = () => {
       </Card>
       <FooterIllustrationsV1 />
     </Box>
+    </>
   )
 }
 
